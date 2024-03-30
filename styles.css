@@ -1,7 +1,9 @@
+/* styles.css */
+
 /* Gaya untuk judul artikel */
 article h2 {
     margin-top: 0;
-    color: #333;
+    color: #ff69b4; /* pink */
 }
 
 /* Gaya untuk gambar dalam galeri */
@@ -24,7 +26,7 @@ form {
 
 /* Gaya untuk tombol kirim */
 input[type="button"] {
-    background-color: #333;
+    background-color: #ff69b4; /* pink */
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -33,7 +35,7 @@ input[type="button"] {
 }
 
 input[type="button"]:hover {
-    background-color: #555;
+    background-color: #ff8dd1; /* pink lebih terang saat dihover */
 }
 
 /* Gaya untuk tautan navigasi di footer */
