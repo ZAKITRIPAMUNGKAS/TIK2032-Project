@@ -1,30 +1,67 @@
-/* styles.css */
-
-/* Gaya untuk judul artikel */
-article h2 {
-    margin-top: 0;
-    color: #ff69b4; /* pink */
+/* CSS Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* putih */
+    color: #333; /* hitam */
 }
 
-/* Gaya untuk gambar dalam galeri */
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 10px;
+header {
+    background-color: #ff69b4; /* pink */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
 }
 
-.gallery img {
-    width: 100%;
-    height: auto;
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
-/* Gaya untuk formulir kontak */
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #ffe6f0; /* pink muda */
+}
+
 form {
-    max-width: 500px;
-    margin: 0 auto;
+    margin-top: 20px;
 }
 
-/* Gaya untuk tombol kirim */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
 input[type="button"] {
     background-color: #ff69b4; /* pink */
     color: #fff;
@@ -38,7 +75,13 @@ input[type="button"]:hover {
     background-color: #ff8dd1; /* pink lebih terang saat dihover */
 }
 
-/* Gaya untuk tautan navigasi di footer */
+footer {
+    background-color: #ff69b4; /* pink */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
 footer a {
     color: #fff;
     text-decoration: none;
