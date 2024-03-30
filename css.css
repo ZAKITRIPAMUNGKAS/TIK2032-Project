@@ -1,0 +1,59 @@
+/* Gaya untuk judul artikel */
+article h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+/* Gaya untuk gambar dalam galeri */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+/* Gaya untuk formulir kontak */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Gaya untuk tombol kirim */
+input[type="button"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="button"]:hover {
+    background-color: #555;
+}
+
+/* Gaya untuk tautan navigasi di footer */
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Gaya responsif */
+@media screen and (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    section {
+        padding: 10px;
+    }
+}
